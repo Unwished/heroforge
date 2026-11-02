@@ -10,10 +10,6 @@ cd heroforge
 npm install @reduxjs/toolkit react-redux
 ```
 
-Luego copia a la raíz del proyecto:
-- `App.tsx` (reemplaza el existente)
-- la carpeta `src/`
-
 ```bash
 npx expo start
 ```
