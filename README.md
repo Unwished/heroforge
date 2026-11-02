@@ -43,9 +43,3 @@ src/
 - **Presets:** `applyBuildPreset` reasigna todo en una sola acción (15 puntos base + 15 extra = 30 repartidos).
 - **Sobrecarga:** capacidad = `10 + STR total * 2`; si el peso la supera, -30% al poder de combate. Para provocarla: equipa la Armadura Maldita (40 Kg) con la build inicial.
 
-## Guion sugerido para el video
-
-1. **0:00–1:30** Problema (useState + props) y ciclo: UI → dispatch(action) → reducer → state → selector → re-render.
-2. **1:30–3:30** Demo: equipa Armadura Maldita (sobrecarga), aplica preset Mago, ataca al jefe hasta que el héroe caiga; señala el log.
-3. **3:30–5:30** Código: `configureStore`, `toggleEquipItem` o `applyBuildPreset` (Immer + payload), y `selectors.ts`.
-4. **5:30–6:30** Cuándo `useState` y cuándo Redux Toolkit.
